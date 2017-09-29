@@ -344,7 +344,7 @@
           },
           "compose": {
             "rancheragent": {
-              "image": "rancher/agent:latest",
+              "image": "rancher/agent:v2.0-alpha4",
               "restart": "always",
               "privileged": true,
               "volumes": [
