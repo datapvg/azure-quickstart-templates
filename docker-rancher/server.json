@@ -293,7 +293,7 @@
           "osDisk": {
             "name": "[concat(parameters('rancherNodeName'),'-osdisk')]",
             "vhd": {
-              "uri": "[concat('http://',variables('storageAccountName'),'.blob.core.windows.net/',variables('vmStorageAccountContainerName'),'/',parameters('rancherNodeName'),'-osdisk','.vhd')]"
+              "uri": "[concat('http://',variables('storageAccountName'),'.blob.akl.eclipse.datacom.cloud/',variables('vmStorageAccountContainerName'),'/',parameters('rancherNodeName'),'-osdisk','.vhd')]"
             },
             "caching": "ReadWrite",
             "createOption": "FromImage"
