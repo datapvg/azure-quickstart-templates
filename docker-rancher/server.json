@@ -331,7 +331,7 @@
           },
           "compose": {
             "rancheragent": {
-              "image": "rancher/server:stable",
+              "image": "rancher/server:preview",
               "restart": "always",
               "ports": [
                 "8080:8080"
